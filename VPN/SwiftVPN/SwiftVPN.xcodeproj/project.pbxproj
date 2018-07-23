@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BFC3D6A20552D86003F7F69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFC3D6920552D86003F7F69 /* AppDelegate.swift */; };
+		9BFC3D6C20552D86003F7F69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFC3D6B20552D86003F7F69 /* ViewController.swift */; };
+		9BFC3D6F20552D86003F7F69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFC3D6D20552D86003F7F69 /* Main.storyboard */; };
+		9BFC3D7220552D86003F7F69 /* SwiftVPN.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BFC3D7020552D86003F7F69 /* SwiftVPN.xcdatamodeld */; };
+		9BFC3D7420552D86003F7F69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BFC3D7320552D86003F7F69 /* Assets.xcassets */; };
+		9BFC3D7720552D86003F7F69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BFC3D7520552D86003F7F69 /* LaunchScreen.storyboard */; };
+		9BFC3D8220552D86003F7F69 /* SwiftVPNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFC3D8120552D86003F7F69 /* SwiftVPNTests.swift */; };
+		9BFC3D8D20552D86003F7F69 /* SwiftVPNUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFC3D8C20552D86003F7F69 /* SwiftVPNUITests.swift */; };
+		9BFC3D9C20552DAD003F7F69 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BFC3D9B20552DAD003F7F69 /* NetworkExtension.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BFC3D7E20552D86003F7F69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BFC3D5E20552D86003F7F69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BFC3D6520552D86003F7F69;
+			remoteInfo = SwiftVPN;
+		};
+		9BFC3D8920552D86003F7F69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BFC3D5E20552D86003F7F69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BFC3D6520552D86003F7F69;
+			remoteInfo = SwiftVPN;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BFC3D6620552D86003F7F69 /* SwiftVPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftVPN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BFC3D6920552D86003F7F69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BFC3D6B20552D86003F7F69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BFC3D6E20552D86003F7F69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BFC3D7120552D86003F7F69 /* SwiftVPN.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftVPN.xcdatamodel; sourceTree = "<group>"; };
+		9BFC3D7320552D86003F7F69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BFC3D7620552D86003F7F69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BFC3D7820552D86003F7F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BFC3D7D20552D86003F7F69 /* SwiftVPNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftVPNTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BFC3D8120552D86003F7F69 /* SwiftVPNTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftVPNTests.swift; sourceTree = "<group>"; };
+		9BFC3D8320552D86003F7F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BFC3D8820552D86003F7F69 /* SwiftVPNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftVPNUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BFC3D8C20552D86003F7F69 /* SwiftVPNUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftVPNUITests.swift; sourceTree = "<group>"; };
+		9BFC3D8E20552D86003F7F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BFC3D9B20552DAD003F7F69 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		9BFC3D9D20552DAE003F7F69 /* SwiftVPN.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftVPN.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BFC3D6320552D86003F7F69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFC3D9C20552DAD003F7F69 /* NetworkExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BFC3D7A20552D86003F7F69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BFC3D8520552D86003F7F69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BFC3D5D20552D86003F7F69 = {
+			isa = PBXGroup;
+			children = (
+				9BFC3D6820552D86003F7F69 /* SwiftVPN */,
+				9BFC3D8020552D86003F7F69 /* SwiftVPNTests */,
+				9BFC3D8B20552D86003F7F69 /* SwiftVPNUITests */,
+				9BFC3D6720552D86003F7F69 /* Products */,
+				9BFC3D9A20552DAD003F7F69 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9BFC3D6720552D86003F7F69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BFC3D6620552D86003F7F69 /* SwiftVPN.app */,
+				9BFC3D7D20552D86003F7F69 /* SwiftVPNTests.xctest */,
+				9BFC3D8820552D86003F7F69 /* SwiftVPNUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BFC3D6820552D86003F7F69 /* SwiftVPN */ = {
+			isa = PBXGroup;
+			children = (
+				9BFC3D9D20552DAE003F7F69 /* SwiftVPN.entitlements */,
+				9BFC3D6920552D86003F7F69 /* AppDelegate.swift */,
+				9BFC3D6B20552D86003F7F69 /* ViewController.swift */,
+				9BFC3D6D20552D86003F7F69 /* Main.storyboard */,
+				9BFC3D7320552D86003F7F69 /* Assets.xcassets */,
+				9BFC3D7520552D86003F7F69 /* LaunchScreen.storyboard */,
+				9BFC3D7820552D86003F7F69 /* Info.plist */,
+				9BFC3D7020552D86003F7F69 /* SwiftVPN.xcdatamodeld */,
+			);
+			path = SwiftVPN;
+			sourceTree = "<group>";
+		};
+		9BFC3D8020552D86003F7F69 /* SwiftVPNTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BFC3D8120552D86003F7F69 /* SwiftVPNTests.swift */,
+				9BFC3D8320552D86003F7F69 /* Info.plist */,
+			);
+			path = SwiftVPNTests;
+			sourceTree = "<group>";
+		};
+		9BFC3D8B20552D86003F7F69 /* SwiftVPNUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BFC3D8C20552D86003F7F69 /* SwiftVPNUITests.swift */,
+				9BFC3D8E20552D86003F7F69 /* Info.plist */,
+			);
+			path = SwiftVPNUITests;
+			sourceTree = "<group>";
+		};
+		9BFC3D9A20552DAD003F7F69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BFC3D9B20552DAD003F7F69 /* NetworkExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BFC3D6520552D86003F7F69 /* SwiftVPN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BFC3D9120552D86003F7F69 /* Build configuration list for PBXNativeTarget "SwiftVPN" */;
+			buildPhases = (
+				9BFC3D6220552D86003F7F69 /* Sources */,
+				9BFC3D6320552D86003F7F69 /* Frameworks */,
+				9BFC3D6420552D86003F7F69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftVPN;
+			productName = SwiftVPN;
+			productReference = 9BFC3D6620552D86003F7F69 /* SwiftVPN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BFC3D7C20552D86003F7F69 /* SwiftVPNTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BFC3D9420552D86003F7F69 /* Build configuration list for PBXNativeTarget "SwiftVPNTests" */;
+			buildPhases = (
+				9BFC3D7920552D86003F7F69 /* Sources */,
+				9BFC3D7A20552D86003F7F69 /* Frameworks */,
+				9BFC3D7B20552D86003F7F69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BFC3D7F20552D86003F7F69 /* PBXTargetDependency */,
+			);
+			name = SwiftVPNTests;
+			productName = SwiftVPNTests;
+			productReference = 9BFC3D7D20552D86003F7F69 /* SwiftVPNTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BFC3D8720552D86003F7F69 /* SwiftVPNUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BFC3D9720552D86003F7F69 /* Build configuration list for PBXNativeTarget "SwiftVPNUITests" */;
+			buildPhases = (
+				9BFC3D8420552D86003F7F69 /* Sources */,
+				9BFC3D8520552D86003F7F69 /* Frameworks */,
+				9BFC3D8620552D86003F7F69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BFC3D8A20552D86003F7F69 /* PBXTargetDependency */,
+			);
+			name = SwiftVPNUITests;
+			productName = SwiftVPNUITests;
+			productReference = 9BFC3D8820552D86003F7F69 /* SwiftVPNUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BFC3D5E20552D86003F7F69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "北辰青";
+				TargetAttributes = {
+					9BFC3D6520552D86003F7F69 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.VPNLite = {
+								enabled = 1;
+							};
+						};
+					};
+					9BFC3D7C20552D86003F7F69 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9BFC3D6520552D86003F7F69;
+					};
+					9BFC3D8720552D86003F7F69 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9BFC3D6520552D86003F7F69;
+					};
+				};
+			};
+			buildConfigurationList = 9BFC3D6120552D86003F7F69 /* Build configuration list for PBXProject "SwiftVPN" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BFC3D5D20552D86003F7F69;
+			productRefGroup = 9BFC3D6720552D86003F7F69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BFC3D6520552D86003F7F69 /* SwiftVPN */,
+				9BFC3D7C20552D86003F7F69 /* SwiftVPNTests */,
+				9BFC3D8720552D86003F7F69 /* SwiftVPNUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BFC3D6420552D86003F7F69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFC3D7720552D86003F7F69 /* LaunchScreen.storyboard in Resources */,
+				9BFC3D7420552D86003F7F69 /* Assets.xcassets in Resources */,
+				9BFC3D6F20552D86003F7F69 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BFC3D7B20552D86003F7F69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BFC3D8620552D86003F7F69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BFC3D6220552D86003F7F69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFC3D7220552D86003F7F69 /* SwiftVPN.xcdatamodeld in Sources */,
+				9BFC3D6C20552D86003F7F69 /* ViewController.swift in Sources */,
+				9BFC3D6A20552D86003F7F69 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BFC3D7920552D86003F7F69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFC3D8220552D86003F7F69 /* SwiftVPNTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BFC3D8420552D86003F7F69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFC3D8D20552D86003F7F69 /* SwiftVPNUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BFC3D7F20552D86003F7F69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BFC3D6520552D86003F7F69 /* SwiftVPN */;
+			targetProxy = 9BFC3D7E20552D86003F7F69 /* PBXContainerItemProxy */;
+		};
+		9BFC3D8A20552D86003F7F69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BFC3D6520552D86003F7F69 /* SwiftVPN */;
+			targetProxy = 9BFC3D8920552D86003F7F69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BFC3D6D20552D86003F7F69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BFC3D6E20552D86003F7F69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BFC3D7520552D86003F7F69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BFC3D7620552D86003F7F69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BFC3D8F20552D86003F7F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BFC3D9020552D86003F7F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BFC3D9220552D86003F7F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SwiftVPN/SwiftVPN.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D76EKZMNTP;
+				INFOPLIST_FILE = SwiftVPN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beichen.SwiftVPN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BFC3D9320552D86003F7F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SwiftVPN/SwiftVPN.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D76EKZMNTP;
+				INFOPLIST_FILE = SwiftVPN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beichen.SwiftVPN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9BFC3D9520552D86003F7F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftVPNTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beichen.SwiftVPNTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftVPN.app/SwiftVPN";
+			};
+			name = Debug;
+		};
+		9BFC3D9620552D86003F7F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftVPNTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beichen.SwiftVPNTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftVPN.app/SwiftVPN";
+			};
+			name = Release;
+		};
+		9BFC3D9820552D86003F7F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftVPNUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beichen.SwiftVPNUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftVPN;
+			};
+			name = Debug;
+		};
+		9BFC3D9920552D86003F7F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftVPNUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beichen.SwiftVPNUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftVPN;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BFC3D6120552D86003F7F69 /* Build configuration list for PBXProject "SwiftVPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BFC3D8F20552D86003F7F69 /* Debug */,
+				9BFC3D9020552D86003F7F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BFC3D9120552D86003F7F69 /* Build configuration list for PBXNativeTarget "SwiftVPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BFC3D9220552D86003F7F69 /* Debug */,
+				9BFC3D9320552D86003F7F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BFC3D9420552D86003F7F69 /* Build configuration list for PBXNativeTarget "SwiftVPNTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BFC3D9520552D86003F7F69 /* Debug */,
+				9BFC3D9620552D86003F7F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BFC3D9720552D86003F7F69 /* Build configuration list for PBXNativeTarget "SwiftVPNUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BFC3D9820552D86003F7F69 /* Debug */,
+				9BFC3D9920552D86003F7F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9BFC3D7020552D86003F7F69 /* SwiftVPN.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9BFC3D7120552D86003F7F69 /* SwiftVPN.xcdatamodel */,
+			);
+			currentVersion = 9BFC3D7120552D86003F7F69 /* SwiftVPN.xcdatamodel */;
+			path = SwiftVPN.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9BFC3D5E20552D86003F7F69 /* Project object */;
+}
